@@ -1,5 +1,7 @@
 from kiwipiepy import Kiwi
-import tokenizer_definition_pb2
+
+import src.proto_built_result.tokenizer_definition_pb2 as tokenizer_definition_pb2
+
 
 kiwi = Kiwi()
 

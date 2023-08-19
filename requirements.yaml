@@ -1,0 +1,43 @@
+name: prav
+channels:
+  - defaults
+dependencies:
+  - abseil-cpp=20211102.0=hc377ac9_0
+  - beautifulsoup4=4.12.2=py311hca03da5_0
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h620ffc9_4
+  - c-ares=1.19.0=h80987f9_0
+  - ca-certificates=2023.05.30=hca03da5_0
+  - grpc-cpp=1.48.2=hc60591f_1
+  - grpcio=1.48.2=py311hc60591f_1
+  - libcxx=14.0.6=h848a8c0_0
+  - libffi=3.4.4=hca03da5_0
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libopenblas=0.3.21=h269037a_0
+  - libprotobuf=3.20.3=h514c7bf_0
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - ncurses=6.4=h313beb8_0
+  - numpy=1.25.2=py311he598dae_0
+  - numpy-base=1.25.2=py311hfbfe69c_0
+  - openssl=3.0.10=h1a28f6b_0
+  - pip=23.2.1=py311hca03da5_0
+  - protobuf=3.20.3=py311h313beb8_0
+  - python=3.11.4=hb885b13_0
+  - re2=2022.04.01=hc377ac9_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=68.0.0=py311hca03da5_0
+  - six=1.16.0=pyhd3eb1b0_1
+  - soupsieve=2.4=py311hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tqdm=4.65.0=py311hb6e6a13_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.38.4=py311hca03da5_0
+  - xz=5.4.2=h80987f9_0
+  - zlib=1.2.13=h5a0b063_0
+  - pip:
+      - dataclasses==0.6
+      - kiwipiepy==0.15.2
+      - kiwipiepy-model==0.15.0
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/prav
